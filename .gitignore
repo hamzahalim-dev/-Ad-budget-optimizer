@@ -1,0 +1,17 @@
+# Large or regenerable data (recreate with notebook 01)
+data/raw/
+data/processed/
+tools/
+mr_output/
+github_export/
+*.zip
+*.tar.gz
+
+# Python / Jupyter
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
