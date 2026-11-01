@@ -1,0 +1,4 @@
+version,job,dataset,rows,seconds,map_output_records,reduce_input_records,malformed_rows,engine
+Naive,opt_naive,1m,1000000,18.39,1000000,1000000,0,Hadoop 3.3.6 (standalone)
+Naive + combiner,opt_combiner,1m,1000000,13.21,1000000,15,0,Hadoop 3.3.6 (standalone)
+In-mapper combining,opt_inmapper,1m,1000000,11.54,15,15,0,Hadoop 3.3.6 (standalone)

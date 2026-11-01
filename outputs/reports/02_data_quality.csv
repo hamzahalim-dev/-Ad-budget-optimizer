@@ -1,0 +1,11 @@
+,violating_rows,status
+No missing values,0,PASS
+No duplicate rows,0,PASS
+Spend > 0,0,PASS
+Impressions > 0,0,PASS
+Clicks <= impressions,0,PASS
+Conversions <= clicks,0,PASS
+Revenue >= 0,0,PASS
+No revenue without conversions,0,PASS
+Dates within expected range,0,PASS
+Known platforms only,0,PASS

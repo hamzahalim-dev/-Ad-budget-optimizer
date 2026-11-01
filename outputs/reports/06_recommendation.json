@@ -1,0 +1,61 @@
+{
+  "budget": 1000000,
+  "constraints": {
+    "min_share": 0.05,
+    "max_share": 0.4
+  },
+  "recommended_rs": {
+    "Facebook": 295000,
+    "Instagram": 300000,
+    "Google": 295000,
+    "TikTok": 60000,
+    "YouTube": 50000
+  },
+  "current_rs": {
+    "Facebook": 300000,
+    "Instagram": 250000,
+    "Google": 200000,
+    "TikTok": 150000,
+    "YouTube": 100000
+  },
+  "ci95_share_pct": {
+    "Facebook": [
+      27.5,
+      32.3
+    ],
+    "Instagram": [
+      27.6,
+      32.2
+    ],
+    "Google": [
+      28.1,
+      31.6
+    ],
+    "TikTok": [
+      5.3,
+      6.4
+    ],
+    "YouTube": [
+      5.0,
+      5.0
+    ]
+  },
+  "expected_revenue_rs": 3417405.346390322,
+  "current_expected_revenue_rs": 3328542.1274441234,
+  "uplift_rs": 88863.21894619847,
+  "uplift_pct": 2.669733941881436,
+  "beta": {
+    "Facebook": 0.8036,
+    "Instagram": 0.7556,
+    "Google": 0.6524,
+    "TikTok": 0.8541,
+    "YouTube": 0.8005
+  },
+  "roas_at_usual": {
+    "Facebook": 3.1962,
+    "Instagram": 3.5554,
+    "Google": 4.528,
+    "TikTok": 2.6229,
+    "YouTube": 1.8178
+  }
+}

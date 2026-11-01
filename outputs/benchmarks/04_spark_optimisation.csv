@@ -1,0 +1,4 @@
+,seconds
+7 separate queries,32.41
+Cache + 7 queries,83.01
+GROUPING SETS (1 pass),24.32

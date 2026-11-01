@@ -1,0 +1,9 @@
+dataset,rows,format,seconds,engine,rows_per_sec
+10k,10000,csv,0.229,Spark 4.0.4 local[2],43668.0
+10k,10000,parquet,0.175,Spark 4.0.4 local[2],57143.0
+100k,100000,csv,0.598,Spark 4.0.4 local[2],167224.0
+100k,100000,parquet,0.225,Spark 4.0.4 local[2],444444.0
+1m,1000000,csv,2.84,Spark 4.0.4 local[2],352113.0
+1m,1000000,parquet,0.533,Spark 4.0.4 local[2],1876173.0
+10m,10000000,csv,25.4,Spark 4.0.4 local[2],393701.0
+10m,10000000,parquet,3.064,Spark 4.0.4 local[2],3263708.0

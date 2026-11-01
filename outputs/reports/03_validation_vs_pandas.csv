@@ -1,0 +1,8 @@
+breakdown,groups,same_groups,counts_exact,max_money_diff_Rs,status
+platform,5,True,True,0.0,PASS
+campaign,40,True,True,0.0,PASS
+age,5,True,True,0.0,PASS
+gender,2,True,True,0.0,PASS
+city,10,True,True,0.0,PASS
+device,3,True,True,0.0,PASS
+date|platform,1825,True,True,0.0,PASS

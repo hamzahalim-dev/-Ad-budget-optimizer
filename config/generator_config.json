@@ -1,0 +1,119 @@
+{
+  "seed": 42,
+  "date_range": [
+    "2025-11-01",
+    "2026-10-31"
+  ],
+  "grain": "campaign x segment x day",
+  "platforms": {
+    "Facebook": {
+      "code": "FB",
+      "hist_share": 0.3,
+      "cpm": 150,
+      "ctr": 0.012,
+      "cvr": 0.02,
+      "aov": 2000,
+      "beta": 0.8,
+      "baseline_cpc": 12.5,
+      "baseline_cpa": 625.0,
+      "baseline_roas": 3.2
+    },
+    "Instagram": {
+      "code": "IG",
+      "hist_share": 0.25,
+      "cpm": 180,
+      "ctr": 0.01,
+      "cvr": 0.02,
+      "aov": 3200,
+      "beta": 0.75,
+      "baseline_cpc": 18.0,
+      "baseline_cpa": 900.0,
+      "baseline_roas": 3.556
+    },
+    "Google": {
+      "code": "GG",
+      "hist_share": 0.2,
+      "cpm": 900,
+      "ctr": 0.03,
+      "cvr": 0.04,
+      "aov": 3400,
+      "beta": 0.65,
+      "baseline_cpc": 30.0,
+      "baseline_cpa": 750.0,
+      "baseline_roas": 4.533
+    },
+    "TikTok": {
+      "code": "TT",
+      "hist_share": 0.15,
+      "cpm": 70,
+      "ctr": 0.008,
+      "cvr": 0.01,
+      "aov": 2300,
+      "beta": 0.85,
+      "baseline_cpc": 8.75,
+      "baseline_cpa": 875.0,
+      "baseline_roas": 2.629
+    },
+    "YouTube": {
+      "code": "YT",
+      "hist_share": 0.1,
+      "cpm": 100,
+      "ctr": 0.004,
+      "cvr": 0.012,
+      "aov": 3800,
+      "beta": 0.8,
+      "baseline_cpc": 25.0,
+      "baseline_cpa": 2083.33,
+      "baseline_roas": 1.824
+    }
+  },
+  "seasons": [
+    {
+      "start": "2025-11-07",
+      "end": "2025-11-30",
+      "budget_multiplier": 1.4,
+      "event": "11.11 / Black Friday"
+    },
+    {
+      "start": "2025-12-01",
+      "end": "2025-12-31",
+      "budget_multiplier": 1.15,
+      "event": "Winter & wedding season"
+    },
+    {
+      "start": "2026-02-18",
+      "end": "2026-03-09",
+      "budget_multiplier": 1.3,
+      "event": "Ramadan"
+    },
+    {
+      "start": "2026-03-10",
+      "end": "2026-03-21",
+      "budget_multiplier": 1.6,
+      "event": "Eid ul-Fitr shopping"
+    },
+    {
+      "start": "2026-05-20",
+      "end": "2026-05-27",
+      "budget_multiplier": 1.25,
+      "event": "Eid ul-Adha"
+    },
+    {
+      "start": "2026-06-15",
+      "end": "2026-07-31",
+      "budget_multiplier": 0.85,
+      "event": "Summer lull"
+    },
+    {
+      "start": "2026-08-08",
+      "end": "2026-08-14",
+      "budget_multiplier": 1.3,
+      "event": "Independence Day sales"
+    }
+  ],
+  "row_spend": {
+    "median_rs": 1500,
+    "lognormal_sigma": 0.7
+  },
+  "daily_noise_sigma": 0.25
+}

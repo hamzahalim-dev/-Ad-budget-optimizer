@@ -1,0 +1,5 @@
+dataset,job,rows,seconds,map_output_records,reduce_input_records,malformed_rows,engine,rows_per_sec
+10k,scale_10k,10000,5.5,5,5,0,Hadoop 3.3.6 (standalone),1818.0
+100k,scale_100k,100000,5.51,5,5,0,Hadoop 3.3.6 (standalone),18149.0
+1m,scale_1m,1000000,10.21,15,15,0,Hadoop 3.3.6 (standalone),97943.0
+10m,scale_10m,10000000,43.46,130,130,0,Hadoop 3.3.6 (standalone),230097.0

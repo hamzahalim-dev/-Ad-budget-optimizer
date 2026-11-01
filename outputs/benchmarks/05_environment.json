@@ -1,0 +1,16 @@
+{
+  "cores": 2,
+  "ram_gb": 13.6,
+  "python": "3.13.18",
+  "pandas": "2.2.3",
+  "spark": "4.0.4",
+  "mapreduce": "Hadoop 3.3.6",
+  "repeats": 3,
+  "datasets": [
+    "10k",
+    "100k",
+    "1m",
+    "10m"
+  ],
+  "colab": true
+}
